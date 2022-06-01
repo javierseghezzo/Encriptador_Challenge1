@@ -1,0 +1,149 @@
+body{
+    background: linear-gradient(#fefdfd,#a8ddf278);
+}
+
+.color-vector{    
+    display:flex;
+    flex-direction: row;
+    background: #fefdfd;   
+    box-sizing: border-box;
+    align-items: flex-end;    
+}
+
+.vector-alura{
+    margin-top: 8px;
+    margin-left: 12px;   
+}
+
+.section-text-area{    
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+}
+
+.input-text-area{
+    width: 70%;
+    height: 27vh;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+    border-radius: 10px;
+    background: #fefefe;
+    text-align: center;
+    padding: 70px;
+}
+
+.solo-letras{
+
+    display: flex;
+    flex-direction: row;
+}
+
+h2{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-text-area2{
+   
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+       
+}
+
+#btencriptar{
+    width: 20%;
+    border-bottom: solid;
+    margin-right: 40px;
+    border-radius: 10px;
+    margin: 3px;
+    background: rgb(214, 236, 255);
+    cursor: pointer;
+    transition: .2s ease all;
+    border: outset;    
+}
+
+#btencriptar:hover{
+    background: rgb(255, 245, 255);
+}
+
+#btdesncriptar{
+    width: 20%;
+    border-bottom: solid;
+    margin-left: 40px;
+    border-radius: 10px;
+    margin: 3px;
+    background: rgb(214, 236, 255);
+    cursor: pointer;
+    transition: .2s ease all;
+    border: outset;    
+}
+
+#btdesncriptar:hover{
+    background: rgb(255, 245, 255);
+}
+
+#result{
+    width: 70%;
+    height: 27vh;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+    border-radius: 10px;
+    margin-top: 7px;
+    background: #fefefe;
+    text-align: center;
+    padding: 70px;
+}
+
+.btcopiar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button{
+    width: 35vh;
+    height: 4vh;
+    margin-top: 3px;
+    border-radius: 5px;
+    margin-top: 7px;
+    background: rgb(214, 236, 255);
+    cursor: pointer;
+    transition: .2s ease all;
+    border: outset;
+}
+
+.button:hover{
+    background: rgb(255, 245, 255);
+}
+
+.footer{
+    height: 11vh;
+    background: linear-gradient(#a8ddf278, #375c88);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.copyright{
+    padding: 25px; 
+}
+
+@media screen and (max-width:480px){
+    #btdesncriptar{
+        font-size: x-small;
+    }
+    #btesncriptar{
+        font-size: x-small;
+    }
+    .footer{
+        height: 13vh;
+    }
+    
+}

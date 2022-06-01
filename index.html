@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head> <!--Lo que hace el head es comunicarse con el navegdor, incluyen-->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="fonts.css">
+		<link rel="stylesheet" href="main.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:wght@200;400&display=swap" rel="stylesheet">
+		<title>Encriptador de texto</title>
+	</head>
+
+	<body>
+		<header>
+			<h1 class="color-vector">
+				<div>
+					<img src="Imagenes-descargas/Vector.png" class="vector-alura" alt="">
+				</div>				
+				
+			</h1> <!-- acá va la a de aluraEl elemento de HTML Header (<header>)
+				representa un grupo de ayudas introductorias o de navegación. Puede contener algunos elementos de encabezado, así como también un logo, un formulario de búsqueda, un nombre de autor y otros componentes.-->
+		</header>
+
+		<main> <!--contiene a las dos etiquetas <section>-->
+			<section class="section-text-area">
+				
+					<textarea name="text" class="input-text-area"  placeholder ="¡Ingrese el texto a encriptar/desencriptar aquí!"></textarea> 
+				
+				<article class="solo-letras">
+					<h2>*Solo letras minúsculas y sin acentos.</h2>
+				</article>
+			</section>
+
+			<section class="section-text-area2">	
+				
+				<button  id="btencriptar" type="button" onclick="llamadoEncriptar()">Encriptar</button>
+										
+				<img src="/Imagenes-descargas/Muñeco.png" class="muneco" alt="">
+						
+				<button  id="btdesncriptar" type="button" onclick="llamadoDesEncriptar()">Desencriptar</button>
+				
+			</section>
+
+			<div class="social-bar">
+				<a href="https://www.linkedin.com/in/javierseghezzo/" class="icon icon-linkedin" target="_blank"></a>
+				<a href="https://github.com/javierseghezzo" class="icon icon-github" target="_blank"></a>
+				<a href="https://www.instagram.com/javierseghezzo/" class="icon icon-instagram" target="_blank"></a>
+				<a href="https://wa.me/message/UAEYUAV2WM4BF1" class="icon icon-whatsapp" target="_blank"></a>
+
+			</div>
+			
+			<section class="section-text-area">
+									
+				<textarea  type="text" class="text-result" id="result" placeholder="¡El resultado aparecerá aquí!"></textarea>
+								
+				<article class="btcopiar">
+					<button class="button"><span>Copiar</span></button>
+				</article>	
+			</section>
+		</main>
+
+		<footer class="footer">
+			<p class="copyright">&copyCopyright Javier Seghezzo - 2022</p>
+		</footer>
+
+		<script src="encriptador.js"></script>
+	</body>
+
+</html>
